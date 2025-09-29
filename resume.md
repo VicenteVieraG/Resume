@@ -7,77 +7,69 @@ contacts:
     url: mailto:vicentejvg@outlook.com
   - label: +52 33 1178 2995
     url: tel:+523311782995
+  - label: Personal Web Page
+    url: https://vicentejvg.netlify.app/
   - label: linkedin.com/in/vicentejvg
     url: https://linkedin.com/in/vicentejvg
+  - label: github.com/VicenteVieraG
+    url: https://github.com/VicenteVieraG
 fontsize: 10pt
-linespread: 1.15
+linespread: 1
 section_font_size: 12pt
-margin_top: 1.5cm
-margin_bottom: 1.5cm
+margin_top: 1cm
+margin_bottom: 0cm
 margin_left: 2cm
 margin_right: 2cm
 ---
 
-# Summary
-### Software engineer focused on web platforms, 3D visualization and developer tooling.
-- Design modular architectures that balance delivery speed with long-term maintainability.
-- Lead small squads, mentor interns and promote inclusive practices across engineering teams.
-#### I enjoy turning complex research ideas into intuitive products that deliver measurable value.
+# About Me
+Highly motivated Software Engineer with a strong foundation computer science. Passionate about developing
+innovative solutions and continuously improving my skills. Experienced in working on complex projects and
+committed to delivering high-quality results; excelling in dynamic, collaborative environments.
 
 # Experience
-## __Senior Software Engineer__ | *Brainiac Research*
-> Jan 2022 - Present
+## __Brainiac Web Research Intern__ | *Node.js, TypeScript, Three.js, GLSL*
+> Oct 2023 – Nov 2023
 
-### Lead engineer for interactive neuro-visualization products.
-- Built 3D data exploration tools with WebGL and Three.js to surface activation patterns for neuroscience teams.
-- Optimized TypeScript microservices to stream annotated recordings with sub-second latency to clinicians worldwide.
-- Coordinated a cross-functional squad implementing privacy-first pipelines that comply with regional regulations.
-#### Delivered insights dashboards adopted by 7 research labs and reduced analysis turnaround time by 35%.
+### 3D Brain zones activation interactive visualization.
+- Loaded brain 3D model and brain connections from vertex arrays using
+__Node.js__.
+- Added Interactivity to the visualization and lighting with __Three.js__.
+- Implemented an approximation of a 3D Voronoi diagram algorithm to highlight
+activated brain’s zones.
+#### Exposed the results of a neuro-science research results on imagined speech.
 
-## __Full-Stack Developer__ | *IBM PowerDash*
-> Feb 2020 - Dec 2021
+## __IBM PowerDash__ | *Nextjs, TypeScript, tRCP, Prisma, Tailwindcss, PowerShell*
+> Feb 2023 – Oct 2023
 
-### Developed certification tracking dashboards for enterprise teams.
-- Created a reusable React + Tailwind UI kit that shortened feature delivery cycles by 40%.
-- Integrated tRPC endpoints with Prisma and PostgreSQL to serve real-time metrics across global regions.
-- Automated release pipelines with PowerShell scripts and GitHub Actions to ensure reliable weekly launches.
-#### Helped the program scale from 50 to 400 active users without service interruptions.
+### Web dashboard application development.
+- Designed and implemented reusable core UI component library using __React__
+and __Tailwindcss__.
+- Used __tRPC__ to handle backend routes to fetch real-time data into UI
+components.
+- Implemented a __SCRUM__ methodology in the project development cycle.
+#### Optimized team's certifications tracking and team creation.
 
 # Education
-## __Instituto Tecnológico y de Estudios Superiores de Monterrey__ | *B.S. Computer Science and Technology*
-> Aug 2016 - Jun 2020
+## __Instituto Tecnológico de Estudios Superiores de Monterrey__
+> Aug 2020 – Jun 2024
 
-### Academic focus on algorithms, graphics and distributed systems.
-- GPA: 92.83
-- Conducted research on imagined speech recognition using GPU-accelerated models.
-#### Graduated with honors while assisting introductory programming cohorts as a peer mentor.
+### Bachelor of Science in Computer Science and Technology
+- __GPA__: 92.83
+- __Relevant Coursework__: Algorithms and data structures, Computer graphics, Linear algebra.
 
-# Projects
-## __GainSight XR__ | *TypeScript, Three.js, GLSL*
-> Mar 2023 - Sep 2023
+# Certifications
+- [Foundations of Coding Full-Stack](https://www.coursera.org/account/accomplishments/records/YRBFYOF8ZKB8) | *Microsoft*
+- [Introduction to Programming With C#](https://www.coursera.org/account/accomplishments/verify/5C92VGE4SWFO) | *Microsoft*
+- [Software Systems Developer](https://api.badgr.io/public/assertions/MtqvVdKQSdmx8HospWE1aw) | *Tecnológico de Monterrey*
+- [Computational Infrastructure Implementation](https://api.badgr.io/public/assertions/EA0qVm6cRBykjIyOLQse7g) | *Tecnológico de Monterrey*
+- [Research Internship](https://api.badgr.io/public/assertions/bE7-YqTpQM-ZdBLmjIq07Q) | *Tecnológico de Monterrey*
 
-### Immersive analytics environment for mixed reality headsets.
-- Authored GLSL shaders to render interactive volumetric datasets with context-aware lighting.
-- Implemented collaborative annotation features backed by WebRTC data channels.
-#### Presented the prototype at TechFest 2023 and secured pilot funding from two enterprise partners.
+# Technologies
+- __Languages__: C, C++, C#, JavaScript, TypeScript, HTML, CSS, PowerShell.
+- __Frameworks__: Astro, Next.js, React, React Native, Svelte, Tailwind, SDL2, GLFW, OpenGL, .NET.
+- __Libraries__: Boost, ImGUI, glbinding.
+- __Developer Tools__: CMake, Make, minGW/MSVC/Clang LLVM, gdb, VCPKG, Git, GitHub, Markdown, Visual Studio, Visual Studio Code, Figma.
 
-## __DeployKit CLI__ | *Rust, SQLite, GitHub Actions*
-> Jul 2022 - Jan 2023
-
-### Command-line toolchain for reproducible infrastructure rollouts.
-- Modeled declarative environment manifests and diff strategies in Rust for multi-cloud parity.
-- Added telemetry dashboards to surface rollout health metrics, reducing incident diagnosis time by 50%.
-#### Open-sourced under MIT license; reached 1k stars and active community contributions within three months.
-
-# Skills
-### Core technologies
-- TypeScript, Node.js, React, Next.js, Astro
-- Rust, Go, Python, C++
-- WebGL, Three.js, GLSL, OpenGL
-#### Always pairing new techniques with solid testing and observability practices.
-
-### Tools & Practices
-- Git, GitHub, GitHub Actions, Docker, Kubernetes
-- tRPC, Prisma, PostgreSQL, Redis
-- Scrum facilitation, technical mentoring, documentation systems
-#### Thrives in cross-functional teams that iterate quickly without sacrificing quality.
+# Languages
+Spanish(Native) | English(C1/TOEFL ITP) | French(Basic)
