@@ -53,12 +53,11 @@ $endif$
 \usepackage[unicode=true]{hyperref}
 \hypersetup{
     colorlinks=true,
-    urlcolor=primaryColor,
-$if(pdf_title)$    pdftitle={$pdf_title$},
-$endif$$if(pdf_author)$    pdfauthor={$pdf_author$},
-$endif$$if(pdf_subject)$    pdfsubject={$pdf_subject$},
-$endif$$if(pdf_keywords)$    pdfkeywords={$pdf_keywords$},
-$endif$
+    urlcolor=primaryColor$if(pdf_title)$,
+    pdftitle={$pdf_title$}$endif$$if(pdf_author)$,
+    pdfauthor={$pdf_author$}$endif$$if(pdf_subject)$,
+    pdfsubject={$pdf_subject$}$endif$$if(pdf_keywords)$,
+    pdfkeywords={$pdf_keywords$}$endif$
 }
 \usepackage{changepage}
 \usepackage{paracol}
@@ -80,6 +79,8 @@ $endif$
 \setlength{\columnsep}{0.15cm}
 \setlength{\parskip}{$if(paragraph_spacing)$$paragraph_spacing$$else$0pt$endif$}
 \pagenumbering{gobble}
+
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
 $if(section_font_size)$
 \newcommand{\SectionFontSize}{\fontsize{$section_font_size$}{$section_font_size$}\selectfont}
@@ -143,5 +144,3 @@ $endif$
 $body$
 
 \end{document}
-
-
