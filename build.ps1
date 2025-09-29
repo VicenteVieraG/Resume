@@ -1,1 +1,6 @@
-"pandoc entrada.md --template pandoc_resume_template.tex --lua-filter resume_sections.lua -s -o salida.pdf"
+param(
+    [string] $in = "resume.md",
+    [string] $out = "VicenteViera.pdf"
+);
+
+& pandoc.exe $in --template .\template.tex --lua-filter .\filter.lua -s -o $out;
