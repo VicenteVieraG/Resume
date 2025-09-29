@@ -33,6 +33,7 @@ The document's header is handeled through YAML frontmatter variables. This makes
 - __##__: Section's subtitle. This can represent an entry in the section.
 - __###__: Introduction to your entry element.
 - __>__: Entry's date span. This needs to be used ritght after __##__ heading. It positions the text to the right side of the subtitle's line.
+- __####__: Used to set a conclusion to the entry.
 
 These are the only special compiled elements. The rest of Markdown sintax remains the same as vanilla. You can find examples of these here, in this repository's file: [resume.md](./resume.md).
 
