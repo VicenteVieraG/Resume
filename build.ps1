@@ -1,0 +1,1 @@
+"pandoc entrada.md --template pandoc_resume_template.tex --lua-filter resume_sections.lua -s -o salida.pdf"
