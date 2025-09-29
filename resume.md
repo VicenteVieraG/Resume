@@ -1,7 +1,7 @@
 ---
 name: Vicente Javier Viera Guízar
 headline: Software Engineer
-location: Guadalajara, Mexico
+location: Guadalajara, Jalisco, Mexico
 contacts:
   - label: vicentejvg@outlook.com
     url: mailto:vicentejvg@outlook.com
