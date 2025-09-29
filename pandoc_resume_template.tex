@@ -95,7 +95,7 @@ $endif$
 
 \titlespacing{\section}{$if(section_left_margin)$$section_left_margin$$else$-1pt$endif$}{$if(section_space_before)$$section_space_before$$else$0.3cm$endif$}{$if(section_space_after)$$section_space_after$$else$0.2cm$endif$}
 
-\renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$}
+\renewcommand\labelitemi{{\small\textbullet}}
 
 \newenvironment{onecolentry}{\begin{adjustwidth}{0.00001cm}{0.00001cm}}{\end{adjustwidth}}
 \newenvironment{twocolentry}[2][]{\onecolentry\def\secondColumn{#2}\setcolumnwidth{\fill,4.5cm}\begin{paracol}{2}}{\switchcolumn\raggedleft\secondColumn\end{paracol}\endonecolentry}
@@ -105,7 +105,7 @@ $endif$
 
 \newcommand{\AND}{\unskip\cleaders\copy\ANDbox\hskip\wd\ANDbox\ignorespaces}
 \newsavebox\ANDbox
-\sbox\ANDbox{$|$}
+\sbox\ANDbox{\textbar}
 \newcommand{\contactseparator}{\kern5pt\AND\kern5pt}
 
 \begin{document}
@@ -140,16 +140,8 @@ $endif$
 \vspace{$if(header_body_spacing)$$header_body_spacing$$else$\dimexpr5pt-0.3cm\relax$endif$}
 $endif$
 
-$if(contact_section_title)$
-\section{$contact_section_title$}
-$if(contact_section)$
-\begin{itemize}[topsep=0pt,itemsep=0pt,parsep=0pt,partopsep=0pt,leftmargin=*]
-$for(contact_section)$    \item $contact_section$
-$endfor$
-\end{itemize}
-$endif$
-$endif$
-
 $body$
 
 \end{document}
+
+
