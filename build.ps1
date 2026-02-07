@@ -3,4 +3,7 @@ param(
     [string] $out = "VicenteViera.pdf"
 );
 
-& pandoc.exe $in --template .\template.tex --lua-filter .\filter.lua -s -o $out;
+$templatePath = Join-Path -Path "." -ChildPath "template.tex"
+$filterPath = Join-Path -Path "." -ChildPath "filter.lua"
+
+& pandoc $in --template $templatePath --lua-filter $filterPath -s -o $out

@@ -28,25 +28,21 @@ innovative solutions and continuously improving my skills. Experienced in workin
 committed to delivering high-quality results; excelling in dynamic, collaborative environments.
 
 # Experience
-## __Brainiac Web Research Intern__ | *Node.js, TypeScript, Three.js, GLSL*
-> Oct 2023 – Nov 2023
+## __Wilson & Kinsman — IT Manager__ | *Python, PowerShell, TypeScript, Excell*
+> Sept 2025 – Feb 2026
 
-### 3D Brain zones activation interactive visualization.
-- Loaded brain 3D model and brain connections from vertex arrays using
-__Node.js__.
-- Added Interactivity to the visualization and lighting with __Three.js__.
-- Implemented an approximation of a 3D Voronoi diagram algorithm to highlight
-activated brain’s zones.
-#### Exposed the results of a neuro-science research results on imagined speech.
+### Operations Automation and System Maintenance
+- Automated manual __Excel__ tasks across multiple operational workflows using __Office Scripts (TypeScript)__ and __Python__, saving approximately 20 staff hours per month.
+- Leveraged __PowerShell__ to orchestrate __Python__ API calls and support Excel data analysis workflows, eliminating manual data consolidation and improving reporting efficiency.
+- Developed and presented a C4 __software architecture__ proposal to modernize existing platforms, influencing future technical planning.
+#### Enabled faster, more reliable business operations by automating paperwork and data workflows.
 
 ## __IBM PowerDash__ | *Nextjs, TypeScript, tRCP, Prisma, Tailwindcss, PowerShell*
 > Feb 2023 – Oct 2023
 
 ### Web dashboard application development.
-- Designed and implemented reusable core UI component library using __React__
-and __Tailwindcss__.
-- Used __tRPC__ to handle backend routes to fetch real-time data into UI
-components.
+- Designed and implemented reusable core UI component library using __React__ and __Tailwindcss__.
+- Used __tRPC__ to handle backend routes to fetch real-time data into UI components.
 - Implemented a __SCRUM__ methodology in the project development cycle.
 #### Optimized team's certifications tracking and team creation.
 
@@ -69,7 +65,7 @@ components.
 - __Languages__: C, C++, C#, JavaScript, TypeScript, HTML, CSS, PowerShell.
 - __Frameworks__: Astro, Next.js, React, React Native, Svelte, Tailwind, SDL2, GLFW, OpenGL, .NET.
 - __Libraries__: Boost, ImGUI, glbinding.
-- __Developer Tools__: CMake, Make, minGW/MSVC/Clang LLVM, gdb, VCPKG, Git, GitHub, Markdown, Visual Studio, Visual Studio Code, Figma.
+- __Developer Tools__: CMake, Make, minGW/MSVC/Clang LLVM, gdb, VCPKG, Git, GitHub, Markdown, Docker, Visual Studio, Visual Studio Code, Figma.
 
 # Languages
 Spanish(Native) | English(C1/TOEFL ITP) | French(Basic)
