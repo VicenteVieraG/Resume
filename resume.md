@@ -28,14 +28,14 @@ innovative solutions and continuously improving my skills. Experienced in workin
 committed to delivering high-quality results; excelling in dynamic, collaborative environments.
 
 # Experience
-## __Wilson & Kinsman — IT Manager__ | *Python, PowerShell, TypeScript, Excell*
+## __Scalaty - Frontend Developer__ | *Astro, TypeScript, Tailwind, DaisyUI*
 > Sept 2025 – Feb 2026
 
-### Operations Automation and System Maintenance
-- Automated manual __Excel__ tasks across multiple operational workflows using __Office Scripts (TypeScript)__ and __Python__, saving approximately 20 staff hours per month.
-- Leveraged __PowerShell__ to orchestrate __Python__ API calls and support Excel data analysis workflows, eliminating manual data consolidation and improving reporting efficiency.
-- Developed and presented a C4 __software architecture__ proposal to modernize existing platforms, influencing future technical planning.
-#### Enabled faster, more reliable business operations by automating paperwork and data workflows.
+### Web landing page developer and designer.
+- Implemented custom __components library__.
+- Developed focused in SEO, responsiveness and accessibility.
+- Designed UI/UX for ease of reading.
+#### Created an optimized landing page efficiency-focused and implemented an easy customization system.
 
 ## __IBM PowerDash__ | *Nextjs, TypeScript, tRCP, Prisma, Tailwindcss, PowerShell*
 > Feb 2023 – Oct 2023
